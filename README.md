@@ -1,6 +1,14 @@
-# PowerbiTest
+# Angular 2 PowerBI Javascript Api
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.20-4.
+
+I am still learning angular 2, but I have managed to integrate a powerbi viz into an app using the new javascript api.
+You will need to have a backend service running, I chose the nodejs sample which is available [PowerBI NodeJS Sample] (https://github.com/remeezp/angular2-powerbi-javascript-api.git)
+
+I installed the powerbi-client and copied the powerbi.js file to my application root & referenced it in my `index.html` file.
+`npm install --save powerbi-client`
+
+I hope it helps someone.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

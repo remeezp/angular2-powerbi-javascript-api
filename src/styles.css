@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0 auto;
+}
+
+iframe {
+    border: none;
+    height: 900px !important;
+}
+
+.powerbi-frame--dotted {
+    border: 2px dashed #cecece;
+}
+.powerbi-frame {
+    margin: 0 0 3rem 0;
+    height: 900px;
+}
+.powerbi-frame iframe {
+    border: none !important;
+}
